@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '5a6665b9-63fc-4544-97d3-5e713b39d9a8'
   imageRepository: 'sriramdevopsdotnetframeworkdocker'
   containerRegistry: 'eterf.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/eng/common/Dockerfile.WithRepo'
+  dockerfilePath: '$(Build.SourcesDirectory)/eng/dockerfile-templates/aspnet/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
